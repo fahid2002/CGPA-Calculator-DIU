@@ -18,10 +18,10 @@ export default function Hero({ page, displayGrade, displayColor }) {
       <div className="hero-title">CGPA CALCULATOR DIU</div>
       <div className="hero-sub">{SUBS[page]}</div>
       <div className="hero-uni">
-        Daffodil International University · Computer Science &amp; Engineering
+        Daffodil International University
       </div>
       <div className="hero-dev">
-        Developed by Fahid Hasan · All Rights Reserved © 2025
+        Developed by Fahid Hasan · Computer Science &amp; Engineering
       </div>
       <div
         className={`hero-grade-bg${displayGrade ? " lit" : ""}`}
@@ -36,3 +36,4 @@ export default function Hero({ page, displayGrade, displayColor }) {
     </div>
   );
 }
+
