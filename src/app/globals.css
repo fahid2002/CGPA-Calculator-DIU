@@ -114,7 +114,9 @@ body::before {
   padding: 8px 16px;
   border-radius: 2px;
   cursor: pointer;
-  transition: color 0.2s, background 0.2s;
+  transition:
+    color 0.2s,
+    background 0.2s;
   border: none;
   background: none;
   white-space: nowrap;
@@ -194,7 +196,9 @@ body::before {
   border: none;
   background: none;
   text-align: left;
-  transition: color 0.2s, background 0.2s;
+  transition:
+    color 0.2s,
+    background 0.2s;
 }
 
 .mob-link:hover,
@@ -319,7 +323,9 @@ body::before {
   font-size: clamp(56px, 12vw, 96px);
   line-height: 1;
   letter-spacing: 0.04em;
-  transition: color 0.4s, text-shadow 0.4s;
+  transition:
+    color 0.4s,
+    text-shadow 0.4s;
 }
 
 .rc-sub {
@@ -581,7 +587,9 @@ body::before {
   padding: 7px 10px;
   width: 100%;
   outline: none;
-  transition: border-color 0.2s, box-shadow 0.2s;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
 }
 
 .inp:focus {
@@ -782,7 +790,9 @@ body::before {
   font-size: 17px;
   padding: 3px 8px;
   border-radius: 2px;
-  transition: color 0.2s, background 0.2s;
+  transition:
+    color 0.2s,
+    background 0.2s;
   display: block;
   margin: 0 auto;
 }

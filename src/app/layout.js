@@ -1,4 +1,6 @@
 import "./globals.css";
+import Script from 'next/script'
+
 
 export const metadata = {
   title: "CGPA Calculator · DIU",
@@ -18,7 +20,15 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+
+        {/* Script for oneko.js */}
+        <Script 
+          src="/oneko.js" 
+          strategy="lazyOnload" 
+        />
+      </body>
     </html>
   );
 }
