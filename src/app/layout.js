@@ -7,7 +7,8 @@ export const metadata = {
   description:
     "Calculate your CGPA, Semester GPA, and Course Grades for Daffodil International University",
   icons: {
-    icon: "image/favicon.svg",
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
   },
 };
 
@@ -19,6 +20,8 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@400;500;600;700&display=swap"
           rel="stylesheet"
         />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="/favicon.ico" />
       </head>
       <body>
         {children}

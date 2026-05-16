@@ -211,7 +211,7 @@ body::before {
 .hero {
   position: relative;
   text-align: center;
-  padding: 48px 20px 32px;
+  padding: 28px 20px 20px;
   border-bottom: 1px solid #1a1a22;
   overflow: hidden;
   z-index: 1;
@@ -221,7 +221,7 @@ body::before {
 }
 
 .bat-wrap {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   display: flex;
   justify-content: center;
   align-items: center;

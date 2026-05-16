@@ -22,7 +22,7 @@ export default function Navbar({ page, onNavigate }) {
     <>
       <nav className="nav">
         <div className="nav-brand" onClick={() => navTo("home")}>
-          <BatSVG size={20} />
+          <BatSVG size={32} />
           DIU CGPA
         </div>
         <div className="nav-links">

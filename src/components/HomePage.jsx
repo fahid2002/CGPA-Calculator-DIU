@@ -294,7 +294,7 @@ export default function HomePage() {
         })}
 
         <button className="btn-add-s" onClick={addSem}>
-          <BatSVG size={14} />
+          <BatSVG size={20} />
           ADD NEW SEMESTER
         </button>
       </div>

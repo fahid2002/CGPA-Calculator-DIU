@@ -13,7 +13,7 @@ export default function Hero({ page, displayGrade, displayColor }) {
   return (
     <div className="hero">
       <div className="bat-wrap">
-        <BatSVG size={52} />
+        <BatSVG size={90} />
       </div>
       <div className="hero-title">CGPA CALCULATOR DIU</div>
       <div className="hero-sub">{SUBS[page]}</div>
